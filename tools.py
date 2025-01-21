@@ -1,7 +1,7 @@
 """
 title: R1 Formatter
 author: ex0dus
-author_url: https://github.com/roryeckel
+author_url: https://github.com/roryeckel/open-webui-r1-formatter-function
 version: 0.0.1
 """
 
