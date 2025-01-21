@@ -8,3 +8,5 @@ This is accomplished by placing right arrows `>` in front of each line of the th
 It is recommended to activate this function only for the R1 LLM, as other models may not use XML tags for thinking outputs.
 
 Paste the contents of tools.py into your Open WebUI admin panel Functions.
+
+![Example Screenshot](./Example.png)
