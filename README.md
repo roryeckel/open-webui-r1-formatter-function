@@ -1,7 +1,15 @@
 # open-webui-r1-formatter
 This is a simple formatter for the DeepSeek R1 LLM and its distilled versions as well. It works through Open WebUI's Pipeline function.
 
-The main purpose of this formatter is to transform `<think>...</think>` tags within the response content into a readable markdown quotation format. This makes it easier for users to distinguish between different thinking outputs and the actual response content in the generated text.
+The main purpose of this formatter is to transform `<think>...</think>` tags within the response content into a more readable format. This makes it easier for users to distinguish between different thinking outputs and the actual response content in the generated text. Addtionally, this code removes empty think blocks.
+
+## Collapsible Mode
+
+This modifies the response by placing \<details> and \<summary> tags into the markdown to make each thought collapsible.
+
+![Example Screenshot](./Example%202.png)
+
+## Markdown Quote Mode
 
 This is accomplished by placing right arrows `>` in front of each line of the thinking output. This is a common markdown format for quotations.
 
